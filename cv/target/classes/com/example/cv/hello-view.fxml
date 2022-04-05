@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TextArea?>
+
+<?import javafx.scene.control.Button?>
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.cv.HelloController">
+    <TextArea fx:id="t" />
+    <TextField fx:id="f" />
+    <Button  fx:id="b" onAction="#onHelloButtonClick" text="Regex Check" />
+    <Label fx:id="l" text="Result Here"/>
+</VBox>
